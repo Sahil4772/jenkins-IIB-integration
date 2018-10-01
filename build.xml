@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="project" default="run">
+<project name="sample" default="run">
   <target name="run" description="">
     <property name="toolkit.home" value="C:\Program Files\IBM\IIB\10.0.0.13\tools" />
     <property name="ant.bars.basedir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map\Output" />
