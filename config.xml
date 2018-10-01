@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<project name="project" default="run">
+  <target name="run" description="">
+    <property name="toolkit.home" value="C:\Program Files\IBM\IIB\10.0.0.13\tools" />
+    <property name="ant.bars.basedir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map\Output" />
+    <property name="bar.name" value="${ant.bars.basedir}\TestFlow.bar" />
+    <property name="workspace.dir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map" />
+    <antcall target="build" />
+  </target>
+  <target name="build">
+     <echo message="Building the Message Broker Project @ ${workspace.dir}" />
+     <exec executable="${toolkit.home}\mqsicreatebar.exe" spawn="false">
+        <arg value="-data" />
+            <arg value="${workspace.dir}" />
+        <arg value="-b" />
+            <arg value="${bar.name}" />
+        <!-- List all the message flow projects -->
+        <arg value="-p" />
+            <arg value="TestProject" />
+ 
+        <!-- List all the files to be included in the archive -->
+        <arg value="-o" />
+            <arg value="TestProject\Transformation_Map.msgflow" />
+            <arg value="TestProject_MSET\TestMessageSet\messageSet.mset" />
+     </exec>
+  </target>
+</project>
