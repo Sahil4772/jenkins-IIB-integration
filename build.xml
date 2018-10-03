@@ -16,12 +16,12 @@
             <arg value="${bar.name}" />
         <!-- List all the message flow projects -->
         <arg value="-p" />
-            <arg value="TestProject" />
+            <arg value="Transformation_Map" />
  
         <!-- List all the files to be included in the archive -->
         <arg value="-o" />
-            <arg value="TestProject\Transformation_Map.msgflow" />
-            <arg value="TestProject_MSET\TestMessageSet\messageSet.mset" />
+            <arg value="Transformation_Map\Transformation_Map.msgflow" />
+            <arg value="Transformation_Map_MSET\TestMessageSet\messageSet.mset" />
      </exec>
   </target>
 </project>
