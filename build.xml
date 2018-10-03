@@ -4,7 +4,7 @@
     <property name="toolkit.home" value="C:\Program Files\IBM\IIB\10.0.0.13\tools" />
     <property name="ant.bars.basedir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map\Output" />
     <property name="bar.name" value="${ant.bars.basedir}\TestFlow.bar" />
-    <property name="workspace.dir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map" />
+    <property name="workspace.dir" value="C:\Users\sban34\IBM\IIBT10\workspace" />
     <antcall target="build" />
   </target>
   <target name="build">
