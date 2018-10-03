@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="sample" default="run">
   <target name="run" description="">
-    <property name="toolkit.home" value="..\..\..\..\Program Files\IBM\IIB\10.0.0.13\tools" />
+    <property name="toolkit.home" value="C:\Program Files\IBM\IIB\10.0.0.13\tools" />
     <property name="ant.bars.basedir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map\Output" />
     <property name="bar.name" value="${ant.bars.basedir}\TestFlow.bar" />
     <property name="workspace.dir" value="C:\Users\sban34\IBM\IIBT10\workspace\Transformation_Map" />
