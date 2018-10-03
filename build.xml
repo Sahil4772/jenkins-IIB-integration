@@ -21,7 +21,7 @@
         <!-- List all the files to be included in the archive -->
         <arg value="-o" />
             <arg value="Transformation_Map\Transformation_Map.msgflow" />
-            <arg value="Transformation_Map_MSET\TestMessageSet\messageSet.mset" />
      </exec>
+    <echo message="Completed building Broker Archive file - ${bar.name} " />
   </target>
 </project>
