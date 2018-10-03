@@ -21,8 +21,7 @@
             <arg value="Transformation_Map" />
         <!-- List all the files to be included in the archive -->
         <arg value="-deployAsSource" />
-        <arg value="-o" />
-            <arg value="Transformation_Map\Transformation_Map.msgflow" />
+
             
      </exec>
     <echo message="Completed building Broker Archive file - ${bar.name} " />
