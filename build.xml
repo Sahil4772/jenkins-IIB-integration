@@ -17,7 +17,8 @@
         <!-- List all the message flow projects -->
         <arg value="-p" />
             <arg value="Transformation_Map" />
- 
+        <arg value="-a" />
+            <arg value="Transformation_Map\Transformation_Map.msgflow" />
         <!-- List all the files to be included in the archive -->
         <arg value="-o" />
             <arg value="Transformation_Map\Transformation_Map.msgflow" />
